@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachet - Global Disaster Alerts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Alert-Sphere">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#map-section">Map</a></li>
+                    <li><a href="#alerts">Alerts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." id="search-input">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to Alert-Sphere - Global Disaster Alerts</h1>
+            <p>Your one-stop platform for global disaster alerts and information.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <div class="card">
+                    <h3>Real-Time Alerts</h3>
+                    <p>Stay informed with real-time disaster alerts and notifications.</p>
+                </div>
+                <div class="card">
+                    <h3>Disaster Preparedness</h3>
+                    <p>Access resources and guidelines for disaster preparedness.</p>
+                </div>
+                <div class="card">
+                    <h3>Emergency Contacts</h3>
+                    <p>Find emergency contact information for various disasters.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section id="map-section">
+            <h2>Global Disaster Map</h2>
+            <div id="map"></div>
+        </section>
+
+        <section id="alerts">
+            <h2>Latest Alerts</h2>
+            <ul id="alert-list">
+                <!-- Alerts will be dynamically loaded here -->
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contacts : </h2>
+            <ul id="contact-list">
+
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sachet - Global Disaster Alerts. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<div id="particles-js"></div>
+

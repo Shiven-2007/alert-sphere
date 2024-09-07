@@ -1,0 +1,97 @@
+{
+    "time": 56,
+    "href": "https://api.reliefweb.int/v1/reports",
+    "links": {
+        "self": {
+            "href": "https://api.reliefweb.int/v1/reports?appname=apidoc"
+        },
+        "next": {
+            "href": "https://api.reliefweb.int/v1/reports?appname=apidoc&offset=10&limit=10"
+        }
+    },
+    "took": 51,
+    "totalCount": 1062433,
+    "count": 10,
+    "data": [
+        {
+            "id": "3857965",
+            "score": 1,
+            "fields": {
+                "title": "Le Secr\u00e9taire g\u00e9n\u00e9ral demande une volont\u00e9 politique plus r\u00e9solue et des ressources financi\u00e8res accrues pour \u00e9liminer la violence sexuelle en temps de conflit"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857965"
+        },
+        {
+            "id": "3857938",
+            "score": 1,
+            "fields": {
+                "title": "Este a\u00f1o se ha duplicado la cantidad de ni\u00f1os, ni\u00f1as y adolescentes que migran a trav\u00e9s del Tap\u00f3n del Dari\u00e9n en Panam\u00e1"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857938"
+        },
+        {
+            "id": "3857925",
+            "score": 1,
+            "fields": {
+                "title": "New Declaration to better protect children in conflict is a \u2018milestone achievement\u2019 \u2013 Save the Children"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857925"
+        },
+        {
+            "id": "3857920",
+            "score": 1,
+            "fields": {
+                "title": "Sudan - Complex Emergency Fact Sheet #4, Fiscal Year (FY) 2022"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857920"
+        },
+        {
+            "id": "3857906",
+            "score": 1,
+            "fields": {
+                "title": "Supporting survivors, ending victim-blaming crucial to eradicating conflict-based sexual violence, Secretary-General says in International Day message"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857906"
+        },
+        {
+            "id": "3857814",
+            "score": 1,
+            "fields": {
+                "title": "Syria\u2019s Missing and Disappeared: Is There a Way Forward? Recommendations for a Mechanism with an International Mandate [EN/AR]"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857814"
+        },
+        {
+            "id": "3857810",
+            "score": 1,
+            "fields": {
+                "title": "UN Commission of Inquiry on Syria: Member States must seize moment to establish mechanism for missing persons [EN/AR]"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857810"
+        },
+        {
+            "id": "3857770",
+            "score": 1,
+            "fields": {
+                "title": "Rwanda: Commonwealth leaders must oppose UK\u2019s racist asylum seeker deal"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857770"
+        },
+        {
+            "id": "3857749",
+            "score": 1,
+            "fields": {
+                "title": "Promoting Gender-Transformative Change through Social Protection: An analytical approach"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857749"
+        },
+        {
+            "id": "3857580",
+            "score": 1,
+            "fields": {
+                "title": "Pour inverser \u00ab une spirale infernale \u00bb et prot\u00e9ger notre avenir de la s\u00e9cheresse, le Secr\u00e9taire g\u00e9n\u00e9ral appelle \u00e0 prendre soin de nos sols et de leur biodiversit\u00e9"
+            },
+            "href": "https://api.reliefweb.int/v1/reports/3857580"
+        }
+    ]
+}
